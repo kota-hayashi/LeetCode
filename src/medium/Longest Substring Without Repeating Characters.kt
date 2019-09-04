@@ -1,3 +1,5 @@
+package medium
+
 import java.lang.StringBuilder
 
 class Solution3 {

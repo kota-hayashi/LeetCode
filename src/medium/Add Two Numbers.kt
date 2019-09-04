@@ -1,10 +1,12 @@
+package medium
+
 /**
  * Example:
- * var li = ListNode(5)
+ * var li = medium.ListNode(5)
  * var v = li.`val`
  * Definition for singly-linked list.
- * class ListNode(var `val`: Int) {
- *     var next: ListNode? = null
+ * class medium.ListNode(var `val`: Int) {
+ *     var next: medium.ListNode? = null
  * }
  */
 // 長いと対応できない。。。

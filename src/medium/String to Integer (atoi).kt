@@ -1,3 +1,5 @@
+package medium
+
 import java.lang.StringBuilder
 import kotlin.test.assertEquals
 
@@ -53,7 +55,7 @@ val digits = (0..9).map { '0' + it }
 fun String.getDigitsList(firstIndex: Int) : String {
     val sb = StringBuilder("")
 //    val target = this.substring(firstIndex)
-//    val lastIndex = target.indexOfFirst { it !in digits }
+//    val lastIndex = target.indexOfFirst { it !in medium.getDigits }
 //    if (lastIndex == 0) return ""
 //    return this.substring(firstIndex, lastIndex - 1)
     for (i in firstIndex until this.length) {

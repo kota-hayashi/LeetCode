@@ -1,3 +1,5 @@
+package easy
+
 import kotlin.math.abs
 
 fun reverse(x: Int): Int {

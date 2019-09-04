@@ -1,3 +1,5 @@
+package easy
+
 class Solution1 {
     fun romanToInt(s: String): Int {
         val romans = s.toCharArray()
