@@ -1,0 +1,12 @@
+# Intellij
+*.iml
+.idea/
+.idea/workspace.xml
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
