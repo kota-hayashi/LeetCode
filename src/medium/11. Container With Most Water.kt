@@ -23,10 +23,10 @@ fun maxArea(height: IntArray): Int {
         val rHeight = height[right]
 
         if (lHeight < rHeight) {
-            max = max(max, (right-left)*lHeight)
+            max = Math.max(max, (right-left)*lHeight)
             left += 1
         } else {
-            max = max(max, (right-left)*rHeight)
+            max = Math.max(max, (right-left)*rHeight)
             right -= 1
         }
     }
