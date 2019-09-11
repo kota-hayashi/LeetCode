@@ -19,8 +19,10 @@ fun maxArea(height: IntArray): Int {
     var left = 0
     var right = height.size - 1
     while (left < right) {
-        max = max(max, (right-left)*min(height[left], height[right]))
-        if (height[left] < height[right]) {
+        val lHeight = height[left]
+        val rHeight = height[right]
+        max = max(max, (right-left)*min(lHeight, rHeight))
+        if (lHeight < rHeight) {
             left += 1
         } else {
             right -= 1
